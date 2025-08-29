@@ -1,7 +1,5 @@
-
 const navHeartCount = document.getElementById('nav-heart-count');
 const cardHearts = document.querySelectorAll('.card-heart');
-
 for (let i = 0; i < cardHearts.length; i++) {
     const heart = cardHearts[i];
     heart.addEventListener('click', function (event) {

@@ -1,4 +1,3 @@
-
 const navCoinCount = document.getElementById('nav-coin-count');
 const callButtons = document.querySelectorAll('.call-button');
 const historyList = document.getElementById('history-list');
@@ -46,7 +45,6 @@ for (let i = 0; i < callButtons.length; i++) {
     });
 }
 
-// Clear History Button functionality
 clearHistoryBtn.addEventListener('click', function () {
     historyList.innerHTML = "";
 });
