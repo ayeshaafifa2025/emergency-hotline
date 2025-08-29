@@ -32,10 +32,10 @@ for (let i = 0; i < callButtons.length; i++) {
 
             historyItem.innerHTML = `
                 <div>
-                    <p class="font-semibold">${serviceName}</p>
-                    <p class="text-blue-600">${serviceNumber}</p>
+                    <p class="font-inter font-semibold text-[18px] text-[#111111]">${serviceName}</p>
+                    <p class="font-hind font-normal text-[#5C5C5C]">${serviceNumber}</p>
                 </div>
-                <div class="text-gray-500 font-mono">${callTime}</div>
+                <div class="text-[#111111] font-normal text-[18px] font-hind">${callTime}</div>
             `;
 
             historyList.appendChild(historyItem);
